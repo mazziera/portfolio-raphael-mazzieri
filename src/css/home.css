@@ -1,0 +1,23 @@
+.home .tela-cheia{
+    min-height: 86vh;
+    padding: 50px 0;
+}
+
+.home .texto-home{
+    background-color: aqua;
+    letter-spacing: 1px;
+    bottom: 50px;
+}
+.home .redes-sociais{
+    bottom: 20px;
+}
+
+.home .imagem-home  {
+    width: 100%;
+    
+}
+
+.home .imagem-home .img img {
+    width: 100vw;
+    animation: changeImage 0.7s;
+}
