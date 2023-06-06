@@ -4,7 +4,6 @@
 }
 
 .home .texto-home{
-    background-color: aqua;
     letter-spacing: 1px;
     bottom: 50px;
 }
@@ -17,7 +16,32 @@
     
 }
 
-.home .imagem-home .img img {
-    width: 100vw;
-    animation: changeImage 0.7s;
+.home .texto-home p {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-grande);
+    margin-bottom: 10px;
+}
+
+.home .texto-home h1 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-gigante);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.home .texto-home h2 {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-grande);
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+@media(max-width: 1280px) {
+    .home .texto-home, .home .img-home {
+        flex: 0 0 1000%;
+        max-width: 100%;
+        text-align: center;
+        padding: 0 var(--mobile-padding);
+    }
+
 }

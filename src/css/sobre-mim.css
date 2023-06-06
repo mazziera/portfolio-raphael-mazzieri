@@ -1,0 +1,54 @@
+.sobre-mim {    
+    /* max-width: 40%; */
+    padding: 0 15px;
+    /* background-color: #000; */
+}
+
+.sobre-mim {
+    padding: 10px 20px;
+    text-align: justify;
+}
+
+.sobre-mim .informacoes-sobre-mim {    
+    padding: 0 25px;   
+    align-self: center; 
+}
+
+.sobre-mim .informacoes-sobre-mim .botoes {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-mim .informacoes-sobre-mim .botoes a:hover{
+    transform: scale(1.1);
+}
+
+.sobre-mim .informacoes-sobre-mim p {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 1280px) { 
+    .sobre-mim .flex{
+        justify-content: center;
+    }
+
+    .sobre-mim .imagem-sobre-mim {        
+        max-width: 100%;
+        padding: 0 var(--mobile-padding);
+        margin-bottom: 50px;
+    }
+
+    .sobre-mim .informacoes-sobre-mim {  
+        padding: 0 var(--mobile-padding);
+        text-align: center;
+    }
+}
+
+@media(max-width:768px){
+    .sobre-mim .informacoes-sobre-mim {  
+        max-width: 100%;                   
+    }
+}

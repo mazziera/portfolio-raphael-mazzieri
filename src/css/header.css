@@ -18,6 +18,8 @@ header{
 .header .logo:hover{
     color: var(--cor-pink);
     border: 3px solid var(--cor-pink);
+    border-radius: 0;
+    transition: ease-in-out 0.5s;
 }
 
 .header  nav ul{
