@@ -1,10 +1,11 @@
 :root{
     --fonte-principal: 'Poppins', sans-serif;
     --fonte-secundaria: 'Raleway', sans-serif;
-    --fonte-gigante: 4.5rem;
+    --fonte-gigante: 5.5rem;
     --fonte-extra-grande: 3rem;
     --fonte-grande: 2.3rem;
     --fonte-normal: 1.6rem;
+    --fonte-gigante-mobile: 4.5rem;
 
     --cor-escuro: #111826;
     --cor-branco: #FFF;

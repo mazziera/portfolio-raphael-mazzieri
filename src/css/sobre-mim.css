@@ -1,7 +1,5 @@
 .sobre-mim {    
-    /* max-width: 40%; */
     padding: 0 15px;
-    /* background-color: #000; */
 }
 
 .sobre-mim {
@@ -22,6 +20,8 @@
 
 .sobre-mim .informacoes-sobre-mim .botoes a:hover{
     transform: scale(1.1);
+    font-weight: 500;
+    border: 1px solid black;
 }
 
 .sobre-mim .informacoes-sobre-mim p {
@@ -30,6 +30,10 @@
     margin-bottom: 20px;
 }
 
+
+.sobre-mim .informacoes-sobre-mim strong{
+    font-weight: 600;
+}
 @media(max-width: 1280px) { 
     .sobre-mim .flex{
         justify-content: center;

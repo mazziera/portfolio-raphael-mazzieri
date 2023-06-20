@@ -1,6 +1,6 @@
 .home .tela-cheia{
     min-height: 86vh;
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 .home .texto-home{
@@ -17,16 +17,16 @@
 }
 
 .home .texto-home p {
+    margin-bottom: 10px;
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-grande);
-    margin-bottom: 10px;
 }
 
 .home .texto-home h1 {
+    margin-bottom: 20px;
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-gigante);
     font-weight: 700;
-    margin-bottom: 20px;
 }
 
 .home .texto-home h2 {
@@ -37,8 +37,11 @@
 }
 
 @media(max-width: 1280px) {
-    .home .texto-home, .home .img-home {
-        flex: 0 0 1000%;
+    .home .texto-home h1{
+        font-size: var(--fonte-gigante-mobile);
+    }
+
+    .home .texto-home {
         max-width: 100%;
         text-align: center;
         padding: 0 var(--mobile-padding);
