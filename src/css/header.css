@@ -109,14 +109,6 @@ header{
 }
 
 @media (max-width: 900px) {
-    
-    .header .menu{
-        display: block;
-    }
-
-    .header nav input:checked ~ul{
-        display: block;
-    }
 
     .header nav{
         position: absolute;
@@ -138,4 +130,13 @@ header{
         margin: 15px 0;
         display: block;
     }
+    
+    .header .menu{
+        display: block;
+    }
+
+    .header nav input:checked ~ul{
+        display: block;
+    }
+
 }
