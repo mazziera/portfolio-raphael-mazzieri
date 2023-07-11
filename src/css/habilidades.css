@@ -36,6 +36,11 @@
 }
 
 .habilidades .container-habilidades .habilidades .container-habilidades .informacoes h3,
+.habilidades .container-habilidades .informacoes .logo #react{
+    color: #00D8FF;
+}
+
+.habilidades .container-habilidades .habilidades .container-habilidades .informacoes h3,
 .habilidades .container-habilidades .informacoes .logo #git{
     color: #F34F29;
 }
