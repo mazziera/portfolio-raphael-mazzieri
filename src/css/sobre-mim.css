@@ -21,7 +21,6 @@
 .sobre-mim .informacoes-sobre-mim .botoes a:hover{
     transform: scale(1.1);
     font-weight: 500;
-    border: 1px solid black;
 }
 
 .sobre-mim .informacoes-sobre-mim p {

@@ -83,13 +83,15 @@ body{
   
   .botao {
     font-size: var(--fonte-grande);
-    padding: 10px 20px;
-    border-radius: 20px;
-    transition: all .3s ease;
+    padding: 15px 23px;
+    border: none;
+    border-radius: 5px;
+    transition: all .4s ease-in;
     background-color: var(--cor-primaria);
+    color: var(--cor-branca);
   }
   
   .botao:hover {
     background-color: var(--cor-secundaria);
-    color: var(--cor-branca);
+    cursor: pointer;
   }

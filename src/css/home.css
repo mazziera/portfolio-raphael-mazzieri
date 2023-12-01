@@ -3,7 +3,7 @@
     padding: 20px 0;
 }
 
-.home .texto-home{
+.home > .texto-home{
     letter-spacing: 1px;
     bottom: 50px;
 }
