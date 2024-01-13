@@ -18,7 +18,7 @@
 ## Visão Geral
 
 
-### O Desafio
+### O Projeto
 
 Os usuários devem ser capazes de:
 
