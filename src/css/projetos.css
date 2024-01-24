@@ -1,15 +1,46 @@
-/* PROJETOS */
 .projetos .container-projetos {
     display: grid;        
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+     grid-template-columns: 40px 1fr 1fr 1fr 100px; 
     margin: 0 auto;
     gap: 20px;       
 }
 
+.projetos .seta{
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+}
+
+ .projetos .seta span{
+    cursor: pointer;
+}
+
+.projetos .seta-esquerda {
+    margin: -50px;
+}
+
+.projetos .seta-direita {
+    margin: 50px;
+}
+
 @media(max-width: 1280px) { 
     .projetos .container-projetos {
-        padding: 0 30px;
+        padding: 0 80px;
     }
+
+    .projetos .seta{
+        font-size: 40px;
+    }
+
+    .projetos .seta-esquerda {
+        margin: 0;
+    }
+
+    .projetos .seta-direita {
+        margin: 25px;
+    }
+
 }
 
 .projetos .container-projetos .projeto {
@@ -20,6 +51,7 @@
     -webkit-transition: all .3s ease;
     position: relative;            
 }
+
 
 .projetos .container-projetos .projeto:hover,
 .projetos .container-projetos .projeto:hover .informacoes-projeto {
