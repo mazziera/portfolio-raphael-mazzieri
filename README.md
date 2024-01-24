@@ -5,7 +5,7 @@
 ## Sumário
 
 - [Visão geral](#visão-geral)
-  - [O Desafio](#o-desafio)
+  - [O Projeto](#o-projeto)
   - [Screenshot](#screenshot)
 - [Links](#links)
 - [Meu processo](#meu-processo)
