@@ -22,6 +22,8 @@
   <link rel="stylesheet" href="./src/css/projetos.css">
   <link rel="stylesheet" href="./src/css/rodape.css">
 
+  <script src="index.js" defer></script>
+
 </head>
 
 <body>
@@ -188,10 +190,10 @@
         </div>
       </div>
 
-      <div class="container-projetos carrosel">
-        <a class="seta seta-esquerda"><span>&#10094;</span></a>
+      <div class="container-projetos" id="carrossel">
+        <div class="seta" id="seta-esquerda">&#10094;</div>
 
-        <div class="projeto">
+        <div class="projeto  esconder">
           <a href="https://mazziera.github.io/contact-me-linktree/" target="_blank" rel="external">
             <img src="./src/imagens/projeto-1.png" alt="Linktree" />
             <h3>Contact Me</h3>
@@ -202,7 +204,7 @@
           </a>
         </div>
 
-        <div class="projeto">
+        <div class="projeto esconder">
           <a href="https://mazziera.github.io/huddle-landing-page/" target="_blank" rel="external">
             <img src="./src/imagens/projeto-2.png" alt="Huddle huddle-landing-page" />
             <h3>Huddle landing page</h3>
@@ -213,7 +215,7 @@
           </a>
         </div>
 
-        <div class="projeto">
+        <div class="projeto esconder">
           <a href="https://mazziera.github.io/Componente-de-introducao-com-formulario-de-suporte-ao-usuario/"
             target="_blank" rel="external">
             <img src="./src/imagens/projeto-3.png" alt="Formulario" />
@@ -225,7 +227,7 @@
           </a>
         </div>
 
-        <!-- <div class="projeto">
+        <div class="projeto esconder">
           <a href="https://mazziera.github.io/anuncio-spotify/">
             <img src="./src/imagens/projeto-4.png" alt="Nome do projeto" />
             <h3>Spotify</h3>
@@ -235,9 +237,11 @@
               <p>🔗 Ver projeto online</p>
             </div>
           </a>
-        </div> -->
+        </div>
+        
 
-        <a class="seta seta-direita" ><span>&#10095;</span></a>
+        <div class="seta" id="seta-direita"><span>&#10095;</span></div>
+
       </div>
     </div>
   </section>
