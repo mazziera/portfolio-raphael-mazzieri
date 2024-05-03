@@ -1,5 +1,5 @@
 .projetos .container-projetos {
-    width: 100%;
+    
     display: flex;        
     margin: 0 auto;
     gap: 20px;       
@@ -13,9 +13,15 @@
 }
 
 .projetos .projeto{
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 400px;
 }
+
+
+.projetos .projeto img{
+    width: 100%;
+}
+
 .projetos .container-projetos .seta {
     font-size: 90px;
     display: flex;
@@ -26,11 +32,6 @@
 .projetos .container-projetos .seta:hover{
     opacity: 40%;
     cursor: pointer;
-}
-
-
-#seta-direita{
-    /* margin-right: 100px; */
 }
 
 .esconder{
@@ -47,6 +48,15 @@
 @media(max-width: 1280px) { 
     .projetos .container-projetos {
         padding: 0 80px;
+    }
+
+    .projetos .projeto{
+        width: 100%;
+        height: 350px;
+    }
+
+    .projetos .projeto > p{
+       font-size: 16px;
     }
 
     .projetos .seta{
