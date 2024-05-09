@@ -2,7 +2,7 @@ const slideImagens = document.querySelectorAll('.projeto');
 const setaVoltar = document.getElementById("seta-esquerda");
 const setaAvancar = document.getElementById("seta-direita");
 
-let imagemAtual = 0;
+let imagemAtual = 0; // representa o indice atual da imagem do array de projetos
 
 setaAvancar.addEventListener("click", () => {
     // Avança para a próxima imagem
@@ -35,7 +35,8 @@ const voltarParaImagemAnterior = () => {
     esconderImagemAtual();
 
     // Calcula o índice da imagem anterior
-    imagemAtual = (imagemAtual - 1 + slideImagens.length) % slideImagens.length; // volta para o último elemento quando chega ao primeiro
+    imagemAtual = (imagemAtual - 1 + slideImagens.length) % slideImagens.length; /* volta para o último elemento quando chega ao primeiro.
+    O uso de slideImagens.length é para garantir que, mesmo se imagemAtual for 0, ao subtrair 1, ele não se torne -1, mas sim o índice anterior ao último elemento do array.*/
     
     slideImagens[imagemAtual].classList.remove("esconder");
 };
