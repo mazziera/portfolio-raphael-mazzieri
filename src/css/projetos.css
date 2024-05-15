@@ -1,5 +1,4 @@
 .projetos .container-projetos {
-    
     display: flex;        
     margin: 0 auto;
     gap: 20px;       
@@ -17,9 +16,8 @@
     height: 400px;
 }
 
-
 .projetos .projeto img{
-    width: 100%;
+    width: 100%; 
 }
 
 .projetos .container-projetos .seta {
@@ -44,7 +42,6 @@
 }
 
 
-
 @media(max-width: 1280px) { 
     .projetos .container-projetos {
         padding: 0 80px;
@@ -64,7 +61,7 @@
     }
 
     .projetos .seta-esquerda {
-        /* margin: 0; */
+        margin: 0;
         position: relative;
         z-index: 1;
     }
